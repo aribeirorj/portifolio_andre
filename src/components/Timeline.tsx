@@ -19,19 +19,42 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: "white", color: "rgb(39, 40, 34)" }}
             contentArrowStyle={{ borderRight: "7px solid  white" }}
-            date="2019 - present"
+            date="2025 - present"
             iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
             <h3 className="vertical-timeline-element-title">
-              Sr Front End Developer
+              GFT - Technologies SE.
             </h3>
+            <h4 className="vertical-timeline-element-title">
+              Sr Front End Developer
+            </h4>
             <h4 className="vertical-timeline-element-subtitle">
               Home Office, Rio de Janeiro, RJ - Brasil
             </h4>
             <p>
-              Frontend Development, User Experience, Team Leading, Project
-              Management, Agile Methodologies, Customer Support.
+              Frontend Development, Project Management, Agile Methodologies,
+              Customer Support.
+            </p>
+          </VerticalTimelineElement>
+          <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: "white", color: "rgb(39, 40, 34)" }}
+            contentArrowStyle={{ borderRight: "7px solid  white" }}
+            date="2019 - 2025"
+            iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">AMERICANAS.</h3>
+            <h4 className="vertical-timeline-element-title">
+              Sr Front End Developer
+            </h4>
+            <h4 className="vertical-timeline-element-subtitle">
+              Home Office, Rio de Janeiro, RJ - Brasil
+            </h4>
+            <p>
+              Frontend Development, Project Management, Agile Methodologies,
+              Customer Support.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -40,6 +63,9 @@ function Timeline() {
             iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
+            <h3 className="vertical-timeline-element-title">
+              DHM - Engineering.
+            </h3>
             <h3 className="vertical-timeline-element-title">
               Full Stack Developer
             </h3>
@@ -58,6 +84,9 @@ function Timeline() {
             iconStyle={{ background: "#5000ca", color: "rgb(39, 40, 34)" }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
+            <h3 className="vertical-timeline-element-title">
+              PETROBRAS - Brazilian Petroleum Inc.
+            </h3>
             <h3 className="vertical-timeline-element-title">
               Full Stack Developer
             </h3>

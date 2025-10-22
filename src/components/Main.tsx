@@ -3,6 +3,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import "../assets/styles/Main.scss";
 import avatar from "../assets/images/avatar.jpeg";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
 function Main() {
   return (
@@ -13,19 +14,26 @@ function Main() {
         </div>
         <div className="content">
           <div className="social_icons">
-            <a
+            {/* <a
               href="https://github.com/aribeirorj"
               target="_blank"
               rel="noreferrer"
             >
               <GitHubIcon />
-            </a>
+            </a> */}
             <a
               href="https://www.linkedin.com/in/aribeirorj/"
               target="_blank"
               rel="noreferrer"
             >
               <LinkedInIcon />
+            </a>
+            <a
+              href="https://wa.me/21986429914"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <WhatsAppIcon />
             </a>
           </div>
           <h1>André Luiz</h1>

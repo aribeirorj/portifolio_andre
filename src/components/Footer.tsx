@@ -6,7 +6,7 @@ import "../assets/styles/Footer.scss";
 
 function Footer() {
   return (
-    <footer>
+    <footer id="footer">
       <h1>Contact Me</h1>
 
       <div>
